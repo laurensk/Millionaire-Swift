@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DD127DC235B9EAD00935DD6 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DB235B9EAD00935DD6 /* intro.mp3 */; };
+		0D43311B235BC2A70045DF94 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D43311A235BC2A70045DF94 /* intro.mp3 */; };
 		0DD127E0235BB6DF00935DD6 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DD235BB6DF00935DD6 /* correct.mp3 */; };
 		0DD127E1235BB6DF00935DD6 /* result.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DE235BB6DF00935DD6 /* result.mp3 */; };
 		0DD127E2235BB6DF00935DD6 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DF235BB6DF00935DD6 /* incorrect.mp3 */; };
@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DD127DB235B9EAD00935DD6 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = ../../../../../Desktop/mdata/Sounds/intro.mp3; sourceTree = "<group>"; };
+		0D43311A235BC2A70045DF94 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = "../../../millionaire-data/Sounds/intro.mp3"; sourceTree = "<group>"; };
 		0DD127DD235BB6DF00935DD6 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		0DD127DE235BB6DF00935DD6 /* result.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = result.mp3; sourceTree = "<group>"; };
 		0DD127DF235BB6DF00935DD6 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		0DD127D5235B9D3100935DD6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				0DD127DB235B9EAD00935DD6 /* intro.mp3 */,
+				0D43311A235BC2A70045DF94 /* intro.mp3 */,
 				0DD127E3235BB93800935DD6 /* question.mp3 */,
 				0DD127DD235BB6DF00935DD6 /* correct.mp3 */,
 				0DD127DF235BB6DF00935DD6 /* incorrect.mp3 */,
@@ -207,7 +207,7 @@
 				33E3B7F62270E534007F8803 /* Main.storyboard in Resources */,
 				0DD127E2235BB6DF00935DD6 /* incorrect.mp3 in Resources */,
 				0DD127E0235BB6DF00935DD6 /* correct.mp3 in Resources */,
-				0DD127DC235B9EAD00935DD6 /* intro.mp3 in Resources */,
+				0D43311B235BC2A70045DF94 /* intro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
