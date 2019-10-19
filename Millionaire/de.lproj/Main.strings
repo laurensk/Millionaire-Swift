@@ -1,0 +1,57 @@
+
+/* Class = "UITextView"; text = "Herzlich Willkommen beim Tag der offenen Tür der HTBLA Kaindorf! Testen Sie in dieser App Ihr Wissen über unsere Schule."; ObjectID = "56V-RF-wXA"; */
+"56V-RF-wXA.text" = "Herzlich Willkommen beim Tag der offenen Tür der HTBLA Kaindorf! Testen Sie in dieser App Ihr Wissen über unsere Schule.";
+
+/* Class = "UIButton"; normalTitle = "Erneut Spielen"; ObjectID = "CBq-kS-xX4"; */
+"CBq-kS-xX4.normalTitle" = "Erneut Spielen";
+
+/* Class = "UILabel"; text = "Fragen richtig beantwortet"; ObjectID = "EP9-5f-NhJ"; */
+"EP9-5f-NhJ.text" = "Fragen richtig beantwortet";
+
+/* Class = "UILabel"; text = "D:"; ObjectID = "MUS-qb-4i3"; */
+"MUS-qb-4i3.text" = "D:";
+
+/* Class = "UILabel"; text = "B:"; ObjectID = "ObO-4H-UXA"; */
+"ObO-4H-UXA.text" = "B:";
+
+/* Class = "UILabel"; text = "A:"; ObjectID = "Sh9-AM-3hz"; */
+"Sh9-AM-3hz.text" = "A:";
+
+/* Class = "UILabel"; text = "5/5"; ObjectID = "Ve9-Gf-PIS"; */
+"Ve9-Gf-PIS.text" = "5/5";
+
+/* Class = "UIButton"; normalTitle = "Über die HTBLA Kaindorf"; ObjectID = "XYd-CB-7OF"; */
+"XYd-CB-7OF.normalTitle" = "Über die HTBLA Kaindorf";
+
+/* Class = "UILabel"; text = "Sie haben"; ObjectID = "eno-3K-nGh"; */
+"eno-3K-nGh.text" = "Sie haben";
+
+/* Class = "UILabel"; text = "1000 Schüler/innen"; ObjectID = "fP1-HA-IFE"; */
+"fP1-HA-IFE.text" = "1000 Schüler/innen";
+
+/* Class = "UILabel"; text = "C:"; ObjectID = "hxU-Sv-r4i"; */
+"hxU-Sv-r4i.text" = "C:";
+
+/* Class = "UILabel"; text = "Gratulation!"; ObjectID = "ine-Ks-HpI"; */
+"ine-Ks-HpI.text" = "Gratulation!";
+
+/* Class = "UITextView"; text = "Wie viele Schüler gibt es an der HTBLA Kaindorf?"; ObjectID = "jXP-Ju-tLO"; */
+"jXP-Ju-tLO.text" = "Wie viele Schüler gibt es an der HTBLA Kaindorf?";
+
+/* Class = "UILabel"; text = "Frage 1/5"; ObjectID = "lcd-ZI-UzF"; */
+"lcd-ZI-UzF.text" = "Frage 1/5";
+
+/* Class = "UIButton"; normalTitle = "Spielen"; ObjectID = "maI-aR-BXV"; */
+"maI-aR-BXV.normalTitle" = "Spielen";
+
+/* Class = "UILabel"; text = "2 Schüler/innen"; ObjectID = "rQn-Et-a1U"; */
+"rQn-Et-a1U.text" = "2 Schüler/innen";
+
+/* Class = "UILabel"; text = "500 Schüler/innen"; ObjectID = "tZD-qD-HJP"; */
+"tZD-qD-HJP.text" = "500 Schüler/innen";
+
+/* Class = "UIButton"; normalTitle = "Über die HTBLA Kaindorf"; ObjectID = "vNw-oR-hNE"; */
+"vNw-oR-hNE.normalTitle" = "Über die HTBLA Kaindorf";
+
+/* Class = "UILabel"; text = "55 Schüler/innen"; ObjectID = "xd5-uZ-Bob"; */
+"xd5-uZ-Bob.text" = "55 Schüler/innen";
