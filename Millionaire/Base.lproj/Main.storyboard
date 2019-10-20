@@ -76,7 +76,7 @@
                                     <action selector="aboutHtlButton:" destination="mRm-3A-wOn" eventType="touchUpInside" id="0d5-hJ-5GG"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Herzlich Willkommen beim Tag der offenen Tür der HTBLA Kaindorf! Testen Sie in dieser App Ihr Wissen über unsere Schule." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="56V-RF-wXA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Herzlich Willkommen beim Tag der offenen Tür der HTBLA Kaindorf! Testen Sie in dieser App Ihr Wissen über unsere Schule." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56V-RF-wXA">
                                 <rect key="frame" x="42" y="480" width="292" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="eVF-BW-JLO"/>
@@ -143,27 +143,28 @@
                                     <constraint firstAttribute="height" constant="133" id="Vhq-bX-dGA"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="VnB-Ry-0b4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5S2-Zk-2MV">
                                 <rect key="frame" x="82" y="261" width="57" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="cM0-TH-E3d"/>
-                                    <constraint firstAttribute="width" constant="57" id="e0O-CQ-Oe2"/>
+                                    <constraint firstAttribute="width" constant="57" id="1qz-lU-1Mi"/>
+                                    <constraint firstAttribute="height" constant="35" id="cda-k0-jRT"/>
                                 </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="hga-Wk-7Mv">
+                                <state key="normal" image="1"/>
+                                <connections>
+                                    <action selector="fiftyFiftyJokerButtonTapped:" destination="m2J-vZ-ftK" eventType="touchUpInside" id="SrO-L3-Z4B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZK-s4-UJB">
                                 <rect key="frame" x="159" y="261" width="57" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="57" id="2X0-Uh-eLo"/>
-                                    <constraint firstAttribute="height" constant="35" id="PWY-VD-qYa"/>
+                                    <constraint firstAttribute="width" constant="57" id="aH2-BE-yF0"/>
+                                    <constraint firstAttribute="height" constant="35" id="iE7-gB-XeA"/>
                                 </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="ser-DS-i6J">
-                                <rect key="frame" x="236" y="261" width="57" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="i8F-aK-fqS"/>
-                                    <constraint firstAttribute="width" constant="57" id="zGM-MB-c9Q"/>
-                                </constraints>
-                            </imageView>
+                                <state key="normal" image="2"/>
+                                <connections>
+                                    <action selector="audienceJokerButtonTapped:" destination="m2J-vZ-ftK" eventType="touchUpInside" id="eHj-Qd-0VO"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSl-I9-4Im">
                                 <rect key="frame" x="42" y="307" width="292" height="169"/>
                                 <subviews>
@@ -186,6 +187,7 @@
                                     <constraint firstAttribute="height" constant="169" id="4WQ-Zj-ltf"/>
                                     <constraint firstItem="lcd-ZI-UzF" firstAttribute="centerX" secondItem="DSl-I9-4Im" secondAttribute="centerX" id="63e-Me-qMC"/>
                                     <constraint firstAttribute="bottom" secondItem="jXP-Ju-tLO" secondAttribute="bottom" constant="8" id="UlI-6m-Jna"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="169" id="YCa-JD-vJq"/>
                                     <constraint firstItem="jXP-Ju-tLO" firstAttribute="top" secondItem="lcd-ZI-UzF" secondAttribute="bottom" constant="4" id="bSg-xM-hOy"/>
                                     <constraint firstItem="jXP-Ju-tLO" firstAttribute="leading" secondItem="DSl-I9-4Im" secondAttribute="leading" constant="15" id="g5Q-Fq-aPd"/>
                                     <constraint firstAttribute="trailing" secondItem="jXP-Ju-tLO" secondAttribute="trailing" constant="15" id="te6-Di-sRL"/>
@@ -426,6 +428,17 @@
                                     <constraint firstAttribute="bottom" secondItem="lPB-5N-yJJ" secondAttribute="bottom" id="qO9-SM-3Rs"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kol-B4-t9G">
+                                <rect key="frame" x="236" y="261" width="57" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="4d2-da-zvS"/>
+                                    <constraint firstAttribute="width" constant="57" id="JKc-qy-43J"/>
+                                </constraints>
+                                <state key="normal" image="3"/>
+                                <connections>
+                                    <action selector="phoneJokerButtonTapped:" destination="m2J-vZ-ftK" eventType="touchUpInside" id="2iI-0c-jmU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -433,39 +446,48 @@
                             <constraint firstItem="pAV-eu-a19" firstAttribute="bottom" secondItem="TA9-wp-htN" secondAttribute="bottom" constant="35" id="8Pi-nG-hzy"/>
                             <constraint firstItem="pAV-eu-a19" firstAttribute="trailing" secondItem="TA9-wp-htN" secondAttribute="trailing" constant="42" id="9f8-pm-lN7"/>
                             <constraint firstItem="HmV-AD-gZJ" firstAttribute="top" secondItem="VXX-4r-0O0" secondAttribute="bottom" constant="14" id="9vA-h7-0Cf"/>
+                            <constraint firstItem="DSl-I9-4Im" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" constant="42" id="A0J-GY-zVN"/>
+                            <constraint firstItem="DSl-I9-4Im" firstAttribute="top" secondItem="5S2-Zk-2MV" secondAttribute="bottom" constant="11" id="ElG-Zc-Z18"/>
                             <constraint firstItem="TA9-wp-htN" firstAttribute="top" secondItem="iEp-nE-UDi" secondAttribute="bottom" constant="14" id="GLW-kT-vaV"/>
-                            <constraint firstItem="hga-Wk-7Mv" firstAttribute="leading" secondItem="VnB-Ry-0b4" secondAttribute="trailing" constant="20" id="J1n-G4-IR6"/>
+                            <constraint firstItem="kol-B4-t9G" firstAttribute="top" secondItem="6jx-OB-D2q" secondAttribute="bottom" constant="59" id="HkQ-ci-kOO"/>
                             <constraint firstItem="iEp-nE-UDi" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" constant="41" id="LK2-KV-Qll"/>
                             <constraint firstItem="VXX-4r-0O0" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" constant="41" id="LVF-3Y-3PT"/>
                             <constraint firstItem="DSl-I9-4Im" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" constant="42" id="MB1-OQ-bfk"/>
                             <constraint firstItem="pAV-eu-a19" firstAttribute="trailing" secondItem="DSl-I9-4Im" secondAttribute="trailing" constant="41" id="NsT-sK-eZN"/>
+                            <constraint firstItem="5S2-Zk-2MV" firstAttribute="top" secondItem="6jx-OB-D2q" secondAttribute="bottom" constant="59" id="Obt-EO-1F7"/>
+                            <constraint firstItem="6ZK-s4-UJB" firstAttribute="top" secondItem="6jx-OB-D2q" secondAttribute="bottom" constant="59" id="ReC-Sh-abT"/>
                             <constraint firstItem="TA9-wp-htN" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" constant="41" id="SCg-sb-2E5"/>
-                            <constraint firstItem="VnB-Ry-0b4" firstAttribute="top" secondItem="6jx-OB-D2q" secondAttribute="bottom" constant="59" id="SZr-h1-HhJ"/>
+                            <constraint firstItem="6ZK-s4-UJB" firstAttribute="leading" secondItem="5S2-Zk-2MV" secondAttribute="trailing" constant="20" id="SdI-4B-G0b"/>
                             <constraint firstItem="pAV-eu-a19" firstAttribute="trailing" secondItem="HmV-AD-gZJ" secondAttribute="trailing" constant="42" id="We2-nD-eoq"/>
                             <constraint firstItem="iEp-nE-UDi" firstAttribute="top" secondItem="HmV-AD-gZJ" secondAttribute="bottom" constant="14" id="YJR-68-YAO"/>
+                            <constraint firstItem="6ZK-s4-UJB" firstAttribute="centerX" secondItem="1AM-CW-RVp" secondAttribute="centerX" id="YL9-2h-HBL"/>
                             <constraint firstItem="yY3-in-eut" firstAttribute="top" secondItem="1AM-CW-RVp" secondAttribute="top" id="YYa-H6-P5l"/>
-                            <constraint firstItem="ser-DS-i6J" firstAttribute="top" secondItem="6jx-OB-D2q" secondAttribute="bottom" constant="59" id="bBI-my-0AP"/>
                             <constraint firstItem="yY3-in-eut" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" id="bDI-53-AUC"/>
                             <constraint firstAttribute="bottom" secondItem="yY3-in-eut" secondAttribute="bottom" id="boX-KA-fbD"/>
-                            <constraint firstItem="hga-Wk-7Mv" firstAttribute="top" secondItem="6jx-OB-D2q" secondAttribute="bottom" constant="59" id="eZw-ak-xTr"/>
                             <constraint firstItem="6jx-OB-D2q" firstAttribute="centerX" secondItem="1AM-CW-RVp" secondAttribute="centerX" id="gA7-Ul-PTw"/>
+                            <constraint firstItem="kol-B4-t9G" firstAttribute="leading" secondItem="6ZK-s4-UJB" secondAttribute="trailing" constant="20" id="hEL-Ri-L4T"/>
                             <constraint firstItem="HmV-AD-gZJ" firstAttribute="leading" secondItem="pAV-eu-a19" secondAttribute="leading" constant="41" id="hUX-vJ-vVP"/>
-                            <constraint firstItem="DSl-I9-4Im" firstAttribute="top" secondItem="VnB-Ry-0b4" secondAttribute="bottom" constant="11" id="iaL-7N-cO1"/>
-                            <constraint firstItem="hga-Wk-7Mv" firstAttribute="centerX" secondItem="1AM-CW-RVp" secondAttribute="centerX" id="ldg-HC-T5Y"/>
                             <constraint firstItem="yY3-in-eut" firstAttribute="trailing" secondItem="pAV-eu-a19" secondAttribute="trailing" id="oMM-h9-zbN"/>
+                            <constraint firstItem="pAV-eu-a19" firstAttribute="trailing" secondItem="DSl-I9-4Im" secondAttribute="trailing" constant="41" id="oUR-GV-Ied"/>
                             <constraint firstItem="pAV-eu-a19" firstAttribute="trailing" secondItem="VXX-4r-0O0" secondAttribute="trailing" constant="42" id="oyQ-yA-bDN"/>
                             <constraint firstItem="pAV-eu-a19" firstAttribute="trailing" secondItem="iEp-nE-UDi" secondAttribute="trailing" constant="42" id="qPe-cL-B3u"/>
-                            <constraint firstItem="ser-DS-i6J" firstAttribute="leading" secondItem="hga-Wk-7Mv" secondAttribute="trailing" constant="20" id="zf8-dE-MUr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pAV-eu-a19"/>
                     </view>
                     <navigationItem key="navigationItem" id="yav-zF-Fzx"/>
                     <connections>
                         <outlet property="answerALabel" destination="rQn-Et-a1U" id="BDO-y1-Jb7"/>
+                        <outlet property="answerAView" destination="VXX-4r-0O0" id="UpM-ii-exL"/>
                         <outlet property="answerBLabel" destination="xd5-uZ-Bob" id="qEk-7v-lak"/>
+                        <outlet property="answerBView" destination="HmV-AD-gZJ" id="0Bv-Yh-eDd"/>
                         <outlet property="answerCLabel" destination="tZD-qD-HJP" id="KNd-1Z-GQt"/>
+                        <outlet property="answerCView" destination="iEp-nE-UDi" id="Qhb-vO-eFp"/>
                         <outlet property="answerDLabel" destination="fP1-HA-IFE" id="iQG-tO-ujF"/>
+                        <outlet property="answerDView" destination="TA9-wp-htN" id="jRw-LA-gtt"/>
+                        <outlet property="audienceJokerButton" destination="6ZK-s4-UJB" id="WhR-bM-I67"/>
+                        <outlet property="fiftyFiftyJokerButton" destination="5S2-Zk-2MV" id="5XR-lS-OMa"/>
                         <outlet property="logoImageView" destination="6jx-OB-D2q" id="weX-EU-45Z"/>
+                        <outlet property="phoneJokerButton" destination="kol-B4-t9G" id="uyh-qp-Jcn"/>
                         <outlet property="questionNumberLabel" destination="lcd-ZI-UzF" id="YqK-Em-rHO"/>
                         <outlet property="questionTextView" destination="jXP-Ju-tLO" id="YaN-qi-UJg"/>
                     </connections>

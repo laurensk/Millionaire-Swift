@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D23769C235C51180016E88E /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D23769B235C51180016E88E /* Alert.storyboard */; };
+		0D23769F235CB3E40016E88E /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D23769E235CB3E40016E88E /* AlertView.swift */; };
 		0D43311B235BC2A70045DF94 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D43311A235BC2A70045DF94 /* intro.mp3 */; };
+		0DC7D963235CD32200A98C15 /* Jokers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC7D962235CD32200A98C15 /* Jokers.swift */; };
+		0DC7D965235CDA9E00A98C15 /* audiencePhone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D964235CDA9E00A98C15 /* audiencePhone.mp3 */; };
+		0DC7D967235CDAA100A98C15 /* fiftyFifty.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DC7D966235CDAA100A98C15 /* fiftyFifty.mp3 */; };
 		0DD127E0235BB6DF00935DD6 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DD235BB6DF00935DD6 /* correct.mp3 */; };
 		0DD127E1235BB6DF00935DD6 /* result.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DE235BB6DF00935DD6 /* result.mp3 */; };
 		0DD127E2235BB6DF00935DD6 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DD127DF235BB6DF00935DD6 /* incorrect.mp3 */; };
@@ -24,7 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D23769B235C51180016E88E /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
+		0D23769E235CB3E40016E88E /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		0D43311A235BC2A70045DF94 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = "../../../millionaire-data/Sounds/intro.mp3"; sourceTree = "<group>"; };
+		0DC7D962235CD32200A98C15 /* Jokers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokers.swift; sourceTree = "<group>"; };
+		0DC7D964235CDA9E00A98C15 /* audiencePhone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audiencePhone.mp3; sourceTree = "<group>"; };
+		0DC7D966235CDAA100A98C15 /* fiftyFifty.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fiftyFifty.mp3; sourceTree = "<group>"; };
 		0DD127DD235BB6DF00935DD6 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 		0DD127DE235BB6DF00935DD6 /* result.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = result.mp3; sourceTree = "<group>"; };
 		0DD127DF235BB6DF00935DD6 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
@@ -55,10 +65,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D23769D235C511E0016E88E /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				0D23769B235C51180016E88E /* Alert.storyboard */,
+				0D23769E235CB3E40016E88E /* AlertView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		0DD127D5235B9D3100935DD6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				0D43311A235BC2A70045DF94 /* intro.mp3 */,
+				0DC7D964235CDA9E00A98C15 /* audiencePhone.mp3 */,
+				0DC7D966235CDAA100A98C15 /* fiftyFifty.mp3 */,
 				0DD127E3235BB93800935DD6 /* question.mp3 */,
 				0DD127DD235BB6DF00935DD6 /* correct.mp3 */,
 				0DD127DF235BB6DF00935DD6 /* incorrect.mp3 */,
@@ -103,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				0DD6850C235B92D300B02C79 /* Questions.swift */,
+				0DC7D962235CD32200A98C15 /* Jokers.swift */,
 			);
 			path = Setup;
 			sourceTree = "<group>";
@@ -126,6 +148,7 @@
 		33E3B7EF2270E534007F8803 /* Millionaire */ = {
 			isa = PBXGroup;
 			children = (
+				0D23769D235C511E0016E88E /* Alert */,
 				0DD127D5235B9D3100935DD6 /* Sounds */,
 				0DD68508235B921D00B02C79 /* Menu */,
 				0DD68509235B922500B02C79 /* Game */,
@@ -202,8 +225,11 @@
 			files = (
 				33E3B7FB2270E536007F8803 /* LaunchScreen.storyboard in Resources */,
 				0DD127E1235BB6DF00935DD6 /* result.mp3 in Resources */,
+				0D23769C235C51180016E88E /* Alert.storyboard in Resources */,
+				0DC7D967235CDAA100A98C15 /* fiftyFifty.mp3 in Resources */,
 				0DD127E4235BB93800935DD6 /* question.mp3 in Resources */,
 				33E3B7F82270E536007F8803 /* Assets.xcassets in Resources */,
+				0DC7D965235CDA9E00A98C15 /* audiencePhone.mp3 in Resources */,
 				33E3B7F62270E534007F8803 /* Main.storyboard in Resources */,
 				0DD127E2235BB6DF00935DD6 /* incorrect.mp3 in Resources */,
 				0DD127E0235BB6DF00935DD6 /* correct.mp3 in Resources */,
@@ -220,8 +246,10 @@
 			files = (
 				0DD68505235B920200B02C79 /* GameViewController.swift in Sources */,
 				0DD68501235B76B600B02C79 /* ExtDesRoundedElements.swift in Sources */,
+				0D23769F235CB3E40016E88E /* AlertView.swift in Sources */,
 				33E3B7F12270E534007F8803 /* AppDelegate.swift in Sources */,
 				0DD6850D235B92D300B02C79 /* Questions.swift in Sources */,
+				0DC7D963235CD32200A98C15 /* Jokers.swift in Sources */,
 				0DD68503235B91B900B02C79 /* MenuViewController.swift in Sources */,
 				0DD68507235B920D00B02C79 /* ResultViewController.swift in Sources */,
 			);

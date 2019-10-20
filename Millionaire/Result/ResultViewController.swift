@@ -29,6 +29,10 @@ class ResultViewController: UIViewController, SFSafariViewControllerDelegate {
         answeredQuestions = 0
         correctQuestings = 0
         
+        jokers[0].wasActivated = false
+        jokers[1].wasActivated = false
+        jokers[2].wasActivated = false
+        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let gameViewController = storyboard.instantiateViewController(withIdentifier: "GameViewController") as! GameViewController
         self.navigationController?.pushViewController(gameViewController, animated: true)
